@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <style>
+        td {
+          text-align: center;
+        }
+    </style>
+    <script>
+        function color(){
+            var x = document.getElementsByTagName('tr');
+               for(i=0;i<x.length;i+=2) {
+                    x[i].style.backgroundColor ="#8A8A8A";
+               }
+        }
+        function clearit(){
+           var x = document.getElementsByTagName('tr');
+              for(i=0;i<x.length;i+=2) {
+                   x[i].style.backgroundColor = "";
+              }
+        }
+    </script>
+</head>
+<body>
+
+<table border="1" width="100%" cellpadding="5" >
+    <tr>
+        <td>Ячейка 1</td>
+        <td>Ячейка 2</td>
+    </tr>
+    <tr>
+        <td>Ячейка 3</td>
+        <td>Ячейка 4</td>
+    </tr>
+    <tr>
+        <td>Ячейка 5</td>
+        <td>Ячейка 6</td>
+    </tr>
+    <tr>
+        <td>Ячейка 7</td>
+        <td>Ячейка 8</td>
+    </tr>
+    <tr>
+        <td>Ячейка 9</td>
+        <td>Ячейка 10</td>
+    </tr>
+    <tr>
+        <td>Ячейка 11</td>
+        <td>Ячейка 12</td>
+    </tr>
+</table>
+<button color="color()">Color</button>
+<button clearit="clearit()">Clear</button>
+
+</body>
+</html>

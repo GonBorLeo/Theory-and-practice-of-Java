@@ -1,0 +1,15 @@
+table, th{
+        font-size: 30px;
+        border: 2px solid grey;
+        }
+        tr:nth-child(odd) {
+        background: #98FB98;
+        }
+        tr:nth-child(even) {
+        background: #D3D3D3
+        }
+        caption {
+        font-weight:bold;
+        font-family:Impact;
+        color: #32CD32
+        }

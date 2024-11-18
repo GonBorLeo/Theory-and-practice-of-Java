@@ -1,0 +1,13 @@
+package com.intellekta.Spring;
+
+public class Massage {
+    private String massage;
+
+    public String getMassage() {
+        return massage;
+    }
+
+    public void setMassage(String massage) {
+        this.massage = massage;
+    }
+}

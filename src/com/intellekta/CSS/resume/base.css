@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family:Calibri;
+}
+
+.header {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.infblock {
+    width: 700px;
+    margin: 12px auto;
+}
+
+.footer {
+    padding-top: 25px;
+    text-align: center;
+    width: 700px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.block{
+    display: flex;
+}
+
+.edu {
+margin-top: 5px;
+}
+
+.blockLeft {
+    color: #737373;
+    width: 100px;
+    padding-left: 6px;
+}
+
+.blockRight {
+    width: 600px;
+    padding-right: 6px;
+}
+
+h3 {
+    margin-bottom: 2px;
+    color: #737373;
+    font-weight: normal;
+    border-bottom: 2px solid #737373;
+}
+
+p {
+    font-size: 85%;
+}
+
+.skill{
+    text-align: center;
+    font-size: 85%;
+    background: #DCDCDC;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 12px;
+}

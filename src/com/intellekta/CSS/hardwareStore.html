@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background:#E9E4E0;
+        }
+
+        h1, h2, h4 {
+            font-family: 'Merriweather', serif;
+            letter-spacing: 1px;
+            width: 100%;
+        }
+
+        h2, h4 {
+            text-align: left;
+            text-decoration: underline;
+            max-width: 320px;
+        }
+
+        h1{
+        text-align: center;
+        }
+
+        h2 {
+            color: #090909;
+        }
+
+        h4 {
+            color: #465457;
+            font-size: 20px;
+        }
+
+        .rounded {
+           counter-reset: li;
+           list-style: none;
+           font: 14px "Trebuchet MS", "Lucida Sans";
+        }
+
+        .rounded li {
+           position: relative;
+           display: block;
+           padding: .4em .4em .4em 2em;
+           margin: .5em 0;
+           background: #DAD2CA;
+           color: #444;
+        }
+
+        .rounded li:before {
+            content: counter(li);
+            counter-increment: li;
+            position: absolute;
+            left: -1.3em;
+            top: 50%;
+            margin-top: -1.3em;
+            background: #8FD4C1;
+            height: 2em;
+            width: 2em;
+            line-height: 2em;
+            border: .3em solid white;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Строительный магазин "Отделочник"</h1>
+
+<h2>Каталог магазина:</h2>
+
+<h4>Пиломатериалы:</h4>
+<ul class="rounded" type="disc">
+    <li>Брусок сухой</li>
+    <li>Доска обрезная</li>
+    <li>Доска профильная</li>
+    <li>Вагонка</li>
+</ul>
+
+<h4>Электрика и освещение:</h4>
+<ul class="rounded" type="circle">
+    <li>Кабели</li>
+    <li>Крепежи для кабеля</li>
+    <li>Лампы</li>
+    <li>Прожекторы</li>
+</ul>
+
+<h4>Внутренняя отделка:</h4>
+<ul class="rounded" type="square">
+    <li>Обои и холсты</li>
+    <li>Потолочные системы</li>
+    <li>Окна и подоконники</li>
+    <li>Лакокрасочные материалы</li>
+</ul>
+
+</body>
+</html>
